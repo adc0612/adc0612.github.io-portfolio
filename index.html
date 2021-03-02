@@ -10,6 +10,7 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
@@ -185,30 +186,38 @@
 
     <div id="skills">
         <h2 class="heading">Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>TypeScript</li>
-            <li>Vue</li>
-            <li>Sass</li>
-            <li>Git</li>
-        </ul>
+        <div class="skill_box">
+            <div class="skill_img_container" id="skill_img1"><span aria-hidden="true">HTML</span></div>
+            <div class="skill_img_container" id="skill_img2"><span aria-hidden="true">CSS</span></div>
+            <div class="skill_img_container" id="skill_img3"><span aria-hidden="true">JavaScript</span></div>
+            <div class="skill_img_container" id="skill_img4"><span aria-hidden="true">TypeScript</span></div>
+            <div class="skill_img_container" id="skill_img5"><span aria-hidden="true">Sass</span></div>
+            <div class="skill_img_container" id="skill_img6"><span aria-hidden="true">Vue</span></div>
+            <div class="skill_img_container" id="skill_img7"><span aria-hidden="true">Git</span></div>
+        </div>
     </div>
     <!-- End #skills -->
 
     <div id="contact">
         <h2 class="heading">Contact</h2>
-        <p>
-            <span>Email: </span>
+        <div>
+            <span class="email_txt">Email: </span>
             <span>adc0612@gmail.com</span>
-        </p>
-        <p>
+        </div>
+        <ul>
+            <li>
+                <a href="https://github.com/adc0612" target="_blank"><i class="fab fa-github" aria-hidden="true"></i></a>
+            </li>
+            <li>
+                <a href="https://adc0612.github.io/" target="_blank"><i class="fas fa-blog" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+        <!-- <div>
             <span>Blog: </span>
             <a href="https://adc0612.github.io/">
                 https://adc0612.github.io/
             </a>
-        </p>
+        </div> -->
         <!-- End #contact-form -->
     </div>
     <!-- End #contact -->
@@ -226,14 +235,14 @@
                         <i class="fa fa-chevron-up" aria-hidden="true"></i>
                     </span>
                 </div>
-                <div class="col-sm-5 social">
+                <!-- <div class="col-sm-5 social">
                     <ul>
                         <li>
                             <a href="https://github.com/adc0612" target="_blank"><i class="fa fa-github"
                                     aria-hidden="true"></i></a>
                         </li>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </div>
     </footer>
